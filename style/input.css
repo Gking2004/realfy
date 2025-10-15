@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "inter";
+    src: url('./fonts/Inter_18pt-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "inter";
+    src: url('./fonts/Inter_18pt-Medium.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "inter";
+    src: url('./fonts/Inter_18pt-SemiBold.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "inter";
+    src: url('./fonts/Inter_18pt-Bold.ttf') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "inter";
+    src: url('./fonts/Inter_18pt-ExtraBold.ttf') format('ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: "inter";
+    src: url('./fonts/Inter_18pt-Black.ttf') format('ttf');
+    font-weight: 900;
+    font-style: normal;
+}
+
+.btn {
+    @apply font-mono px-6;
+}
+
+.btn-outline {
+    @apply !border-black !text-white !bg-black hover:bg-gray-200;
+}
+.alert {
+    background-color: #f7f7f7;
+    text-align: center;
+    border-color: grey;
+    padding: 8px;
+  }

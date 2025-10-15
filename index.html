@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realvy</title>
+    <link rel="stylesheet" href="./style/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-base-100">
+        <div class="container navbar">
+            <div class="navbar-start">
+                <a href="#">
+                    <img src="./assets/logo.svg" alt="DevKit logo">
+                </a>
+            </div>
+            <div class="navbar-center hidden lg:flex font-inter">
+                <ul class="menu menu-horizontal px-1 font-bold">
+                    <li><a class="hover:bg-transparent ">Home</a></li>
+                    <li><a class="hover:bg-transparent ">About Us</a></li>
+                    <div class="dropdown group/dropdown">
+                        <div tabindex="0" role="button" class="px-4 py-2  flex gap-1">
+                            Pages
+                            <img src="./assets/arrow-dropdown.svg" class="mt-1">
+                        </div>
+                        <ul tabindex="0" class="invisible group-hover/dropdown:visible absolute menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+                            <li><a class=" text-black hover:bg-gray-300">Agents</a></li>
+                            <li><a class=" text-black hover:bg-gray-300">Services</a></li>
+                            <li><a class=" text-black hover:bg-gray-300">Realtor</a></li>
+                            <li><a class=" text-black hover:bg-gray-300">Contact</a></li>
+                            <li><a class=" text-black hover:bg-gray-300">Licenses</a></li>
+                            <li><a class=" text-black hover:bg-gray-300">404 Pages</a></li>
+                            <li><a class=" text-black hover:bg-gray-300">Privacy Policy</a></li>
+                            <li><a class=" text-black hover:bg-gray-300">Terms &amp; Conditions</a></li>
+                        </ul>
+                    </div>
+                    <li><a class="hover:bg-transparent ">Blog</a></li>
+                    <li><a class="hover:bg-transparent ">Cart(0)</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a class="btn btn-outline hidden sm:inline-flex">
+                    Explore all
+                </a>
+                <div class="dropdown dropdown-bottom dropdown-end">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="container mx-auto mt-12 flex flex-col items-center text-center" style="margin-top: 7rem;">
+        <div class="alert w-auto">
+           <img src="./assets/home-1-svgrepo-com.svg" alt="" class="w-6 h-6 p-0">
+            <span>OUR SERVICES</span>
+          </div>
+        <h1 class="font-playfair font-bold text-black mt-4 " style="font-size: 7rem;">SERVICES</h1>
+    </section>  
+
+    <section class="container mx-auto mt-12 max-w-[75rem]">
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 justify-start items-start">
+            <!-- Card 1 -->
+            <div class="bg-card rounded-lg p-6 flex flex-col text-left">
+                <img src="./assets/img1.svg" alt="Icona" class="w-12 h-12 mb-7">
+                <h1 class="text-xl font-Playfair-display font-bold text-gray-900 mt-7">Property buying assistance</h1>
+                <p class="text-gray-600 text-sm">Helping clients find and purchase their dream home or investment property with personalized guidance throughout the process.</p>
+            </div>
+            
+            <!-- Card 2 -->
+            <div class="bg-card rounded-lg p-6 flex flex-col text-left">
+                <img src="./assets/img2.svg" alt="Icona" class="w-12 h-12 mb-7">
+                <h2 class="text-xl font-bold text-gray-900 mt-7">Property selling services</h2>
+                <p class="text-gray-600 text-sm">Expert marketing and sales strategies to help homeowners sell their properties quickly and for the best price.</p>
+            </div>
+    
+            <!-- Card 3 -->
+            <div class="bg-card rounded-lg p-6 flex flex-col text-left">
+                <img src="./assets/img3.svg" alt="Icona" class="w-12 h-12 mb-7">
+                <h2 class="text-xl font-bold text-gray-900 mt-7">Real estate consultation</h2>
+                <p class="text-gray-600 text-sm">Professional advice on market trends, property values, and investment opportunities tailored to individual client needs.</p>
+            </div>
+    
+            <!-- Card 4 -->
+            <div class="bg-card rounded-lg p-6 flex flex-col text-left">
+                <img src="./assets/img4.svg" alt="Icona" class="w-12 h-12 mb-7">
+                <h2 class="text-xl font-bold text-gray-900 mt-7">Property management</h2>
+                <p class="text-gray-600 text-sm">Comprehensive management services to maintain and maximize the value of rental properties, including tenant management.</p>
+            </div>
+    
+            <!-- Card 5 -->
+            <div class="bg-card rounded-lg p-6 flex flex-col text-left">
+                <img src="./assets/img5.svg" alt="Icona" class="w-12 h-12 mb-7">
+                <h2 class="text-xl font-bold text-gray-900 mt-7">Rental and leasing services</h2>
+                <p class="text-gray-600 text-sm">Helping clients find ideal rental homes or leasing opportunities with a focus on flexibility and long-term value.</p>
+            </div>
+    
+            <!-- Card 6 -->
+            <div class="bg-card rounded-lg p-6 flex flex-col text-left">
+                <img src="./assets/img6.svg" alt="Icona" class="w-12 h-12 mb-7">
+                <h2 class="text-xl font-bold text-gray-900 mt-7">Home staging and preparation</h2>
+                <p class="text-gray-600 text-sm">Preparing properties for sale with professional staging, repairs, and improvements to attract buyers and maximize value.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="container rounded-xl flex flex-col lg:flex-row  max-h-[45rem] max-w-[75rem]" style="margin-top: 4rem;">               
+        <div class="lg:w-[45%] h-auto lg:h-auto flex items-start">
+            <img src="./assets/why_choose.jpg" alt="" class="rounded-xl">
+        </div>
+        <div class="lg:w-[55%] h-full flex items-start">
+            <section class="container mx-auto flex flex-col items-start ml-20 text-left">
+                <div class="alert w-auto flex justify-center">
+                    <p>Why Choose Us</p>
+                </div>
+                <div>
+                <h2 class="font-bold text-black mt-4 text-left" style="font-size: 40px;">Why we are best in Real-Estate market?</h2>
+                </div>
+                <div class="mt-12">
+                    With our unmatched expertise, personalized service, and deep knowledge of the real estate market, we make your home buying or selling experience seamless and stress-free. Our dedicated team of professionals listens to your needs, provides tailored.
+                </div>
+                <div>
+                    <a class="btn btn-outline hidden sm:inline-flex mt-12">
+                        Contact us
+                    </a>
+                </div>
+            </section>  
+        </div>
+    </section>
+    <section class="container mt-12 max-w-[75rem]">
+        <section class=" mt-12 flex flex-col items-start  text-center" style="margin-top: 7rem;">
+            <div class="alert w-auto flex justify-center">
+            <p>Articles</p>
+        </section>  
+    <div class="flex">
+        <h2 class="text-4xl font-playfair font-bold">Read our latest blogs</h2>
+        <a class="btn btn-outline hidden sm:inline-flex ml-auto">
+            Explore all
+        </a>
+    </div>
+</section>
+<section class="container rounded-xl flex flex-col lg:flex-row overflow-hidden max-h-[45rem] max-w-[75rem]">  
+    <div class="card bg-base-100 w-96 shadow-xl mr-6">
+        <figure>
+          <img
+            src="./assets/read1.jpg"
+            alt="" class="rounded-lg" />
+        </figure>
+        <div class="card-body">
+          <a class="card-title">
+            Here’s how to decorate your new home from scratch</a>
+            <div class="flex">
+                <p>August 20,24</p>
+                <p>14 min read</p> 
+            </div>
+          <div class="card-actions justify-start">
+            <button class="btn bg-white">Read more</button>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-base-100 w-96 shadow-xl">
+        <figure>
+          <img
+            src="./assets/read2.jpg"
+            alt="" />
+        </figure>
+        <div class="card-body">
+            <a class="card-title">Here’s how to decorate your new home from scratch</a>
+            <div class="flex">
+                <p>August 20,24</p>
+                <p>14 min read</p> 
+            </div>
+            <div class="card-actions justify-start">
+              <button class="btn bg-white">Read more</button>
+            </div>
+          </div>
+      </div>
+      <div class="card bg-base-100 w-96 shadow-xl">
+        <figure>
+          <img
+            src="./assets/read3.jpg"
+            alt="" />
+        </figure>
+        <div class="card-body">
+            <a class="card-title">Here’s how to decorate your new home from scratch</a>
+            <div class="flex">
+                <p>August 20,24</p>
+                <p>14 min read</p> 
+            </div>
+            <div class="card-actions justify-start">
+              <button class="btn bg-white">Read more</button>
+            </div>
+          </div>
+      </div>
+</section>
+
+</body>
+</html>
